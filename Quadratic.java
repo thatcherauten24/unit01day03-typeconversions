@@ -11,9 +11,9 @@ public class Quadratic {
         System.out.println("b = " + b);
         System.out.println("c = " + c);
 
-        System.out.println("x = " + ((b*-1) + Math.sqrt(Math.pow(b, 2) - 4*a*c)/2*a));
+        System.out.println("x = " + ((b*-1) + (Math.sqrt(Math.pow(b, 2) + (-4*a*c)))/2*a));
         System.out.println("OR");
-        System.out.println("x = " + ((b*-1) - Math.sqrt(Math.pow(b, 2) - 4*a*c)/2*a));
+        System.out.println("x = " + ((b*-1) - (Math.sqrt(Math.pow(b, 2) + (-4*a*c)))/2*a));
 
 
 
